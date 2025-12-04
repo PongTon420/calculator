@@ -6,11 +6,11 @@ button {
   align-self: center;
   justify-self: center;
 }
-.screen {
+.screen-container {
   border: 1px solid black;
   padding: 15px;
 }
-.screen p {
+#screen {
   margin: 0;
   width: auto;
   height: 240px;

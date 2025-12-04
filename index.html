@@ -8,31 +8,32 @@
   </head>
   <body>
     <div class="calculator">
-      <div class="screen">
-        <p></p>
+      <div class="screen-container">
+        <p id="screen"></p>
       </div>
       <div class="button-container">
-        <button id="no1">1</button>
-        <button id="no2">2</button>
-        <button id="no3">3</button>
-        <button id="no4">4</button>
-        <button id="no5">5</button>
-        <button id="no6">6</button>
-        <button id="no7">7</button>
-        <button id="no8">8</button>
-        <button id="no9">9</button>
-        <button id="no0">0</button>
-        <button id="del">DEL</button>
-        <button id="ac">AC</button>
-        <button id="op*">*</button>
-        <button id="op/">/</button>
-        <button id="op+">+</button>
-        <button id="op-">-</button>
-        <button id="opequal">=</button>
-        <button id="ans">ANS</button>
-        <button id="dot">.</button>
-        <button id="haha">:D</button>
+        <button class="numberButton writeButton" id="no1" value="1">1</button>
+        <button class="numberButton writeButton" id="no2" value="2">2</button>
+        <button class="numberButton writeButton" id="no3" value="3">3</button>
+        <button class="numberButton writeButton" id="no4" value="4">4</button>
+        <button class="numberButton writeButton" id="no5" value="5">5</button>
+        <button class="numberButton writeButton" id="no6" value="6">6</button>
+        <button class="numberButton writeButton" id="no7" value="7">7</button>
+        <button class="numberButton writeButton" id="no8" value="8">8</button>
+        <button class="numberButton writeButton" id="no9" value="9">9</button>
+        <button class="numberButton writeButton" id="no0" value="0">0</button>
+        <button class="removeButton" id="del">DEL</button>
+        <button class="removeButton" id="ac">AC</button>
+        <button class="operatorButton writeButton" id="op*" value="*">*</button>
+        <button class="operatorButton writeButton" id="op/" value="/">/</button>
+        <button class="operatorButton writeButton" id="op+" value="+">+</button>
+        <button class="operatorButton writeButton" id="op-" value="-">-</button>
+        <button class="operatorButton" id="opequal">=</button>
+        <button class="dioButton" id="ans">ANS</button>
+        <button class="dotButton writeButton" id="dot">.</button>
+        <button class="funButton" id="haha">:D</button>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
