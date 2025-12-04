@@ -1,0 +1,53 @@
+button {
+  width: 100px;
+  height: 100px;
+}
+.calculator {
+  align-self: center;
+  justify-self: center;
+}
+.screen {
+  border: 1px solid black;
+  padding: 15px;
+}
+.screen p {
+  margin: 0;
+  width: auto;
+  height: 240px;
+  border: 1px solid black;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  border: 1px solid black;
+  height: 400px;
+}
+#no0 {
+  grid-row: 4;
+  grid-column: 2;
+}
+#no4,
+#no5,
+#no6 {
+  grid-row: 2;
+}
+#no7,
+#no8,
+#no9 {
+  grid-row: 3;
+}
+#opequal {
+  grid-column: 5;
+}
+#ans {
+  grid-column: 4;
+  grid-row: 4;
+}
+#dot {
+  grid-row: 4;
+  font-size: 1rem;
+}
+#haha {
+  grid-row: 4;
+}
